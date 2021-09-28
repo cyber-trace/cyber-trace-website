@@ -1,5 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+import ArticleCard from "../components/AtomicCmps/ArticleCard";
+import Button from "../components/AtomicCmps/Button";
+import EventCard from "../components/AtomicCmps/EventCard";
 
 export default function Home() {
   return (
@@ -10,10 +13,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1 className="text-red-500 text-2xl font-bold text-center mt-8">
-          Hello, World
-        </h1>
+      <main className="bg-black h-screen w-full p-10">
+        <Button label="Join us" />
+        <EventCard
+          img="/image.jpg"
+          text="this is an event card"
+          title="this is the event text"
+        />
       </main>
     </div>
   );

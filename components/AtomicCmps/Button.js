@@ -1,6 +1,9 @@
-const Button = ({ label }) => {
+const Button = ({ label, action }) => {
   return (
-    <button className="bg-red-600 text-white rounded-lg py-3 px-10">
+    <button
+      onClick={() => action()}
+      className="bg-accentColor text-white rounded-md py-2 px-6"
+    >
       <span>{label}</span>
     </button>
   );
