@@ -1,7 +1,15 @@
 import React from "react";
 
-const NavBar = () => {
-  return <div></div>;
+const NavBar = ({ sections }) => {
+  return (
+    <nav className="gap-10 hidden sm:flex">
+      {sections.map((name, index) => (
+        <a key={index} href={`#${name}`} className="text-red-50">
+          {name}
+        </a>
+      ))}
+    </nav>
+  );
 };
 
 export default NavBar;

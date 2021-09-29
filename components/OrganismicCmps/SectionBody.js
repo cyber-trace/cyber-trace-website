@@ -1,6 +1,7 @@
 import React from "react";
 
-import { SectionHeader } from "components/MolecularCmps";
+import { Button } from "@/atoms";
+import { SectionHeader } from "@/molecules";
 
 const SectionBody = ({ children, title, name }) => {
   return (
@@ -13,6 +14,9 @@ const SectionBody = ({ children, title, name }) => {
       >
         {children}
       </main>
+      <div className="flex justify-center sm:hidden">
+        <Button label="Explore more" />
+      </div>
     </section>
   );
 };
