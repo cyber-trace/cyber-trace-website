@@ -3,7 +3,10 @@ import Image from "next/image";
 
 const OverlapImage = ({ img1, img2 }) => {
   return (
-    <div className="relative" style={{ width: "277px", height: "326px" }}>
+    <div
+      className="relative"
+      style={{ width: "277px", height: "326px", marginBottom: "163px" }}
+    >
       <div className="absolute w-full h-full">
         <Image src={img1.src} alt={img1.alt} layout="fill" />
       </div>

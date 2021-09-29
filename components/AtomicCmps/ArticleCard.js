@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ArticleCard = ({ img, title, text, author, time }) => {
   return (
-    <div className="text-white flex gap-10">
+    <div className="text-white sm:flex  gap-10 mt-10">
       <Image className="object-cover" width={263} height={172} src={img} />
       <div className="flex flex-col justify-between py-4">
         <div>

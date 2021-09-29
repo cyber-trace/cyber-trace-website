@@ -8,6 +8,7 @@ const SectionBody = ({ children, title, name }) => {
     <section id={name}>
       <SectionHeader name={name} title={title} />
       <main
+        className="p-10"
         style={{
           minHeight: "500px",
         }}
