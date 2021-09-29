@@ -1,7 +1,7 @@
 import React from "react";
 
-const Textarea = () => {
+const NavBar = () => {
   return <div></div>;
 };
 
-export default Textarea;
+export default NavBar;

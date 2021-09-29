@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/atoms": ["components/AtomicCmps/index"],
+      "@/molecules": ["components/MolecularCmps/index"],
+      "@/organisms": ["components/OrganismicCmps/index"],
+      "@/templates/*": ["components/TemplateCmps/*"]
+    }
+  }
+}
