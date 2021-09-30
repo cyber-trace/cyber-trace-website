@@ -1,23 +1,29 @@
 import { OverlapImage } from "@/atoms";
 import React from "react";
+import info from "constants/About-info.json";
 
 const About = () => {
   return (
-    <div className="grid sm:grid-cols-2  items-center">
-      <div className="text-white mx-20">
-        <p className="text-sm ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
-          neque laoreet suspendisse interdum consectetur libero id faucibus
-          nisl. Id aliquet risus feugiat in ante metus.
-        </p>
-      </div>
-      <div className="flex justify-center">
-        <OverlapImage
-          img1={{ src: "/image.jpg", alt: "xxx" }}
-          img2={{ src: "/image.jpg", alt: "xxx" }}
-        />
-      </div>
+    <div>
+      {info.map(({ title, text, img1, img2 }, index) => (
+        <div
+          key={index}
+          className="grid sm:grid-cols-2 items-center mb-20"
+          style={{
+            direction: index % 2 != 0 ? "rtl" : "ltr",
+          }}
+        >
+          <div className="text-white mx-20" style={{ direction: "ltr" }}>
+            {title && (
+              <h3 className="font-semibold mb-5 text-3xl"> {title} </h3>
+            )}
+            <p className="text-sm "> {text} </p>
+          </div>
+          <div className="flex justify-center">
+            <OverlapImage img1={img1} img2={img2} />
+          </div>
+        </div>
+      ))}
     </div>
   );
 };

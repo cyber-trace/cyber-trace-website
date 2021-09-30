@@ -1,30 +1,13 @@
 import { ArticleCard } from "@/atoms";
 import React from "react";
+import info from "constants/Blog-info.json";
 
 const Blog = () => {
   return (
     <div>
-      <ArticleCard
-        title="Article 1"
-        text="Article of the year,Article of the year,Article of the year,Article of the year,Article of the year,Article of the year .."
-        author="Author"
-        time="6"
-        img="/image.jpg"
-      />
-      <ArticleCard
-        title="Article 1"
-        text="Article of the year,Article of the year,Article of the year,Article of the year,Article of the year,Article of the year .."
-        author="Author"
-        time="6"
-        img="/image.jpg"
-      />{" "}
-      <ArticleCard
-        title="Article 1"
-        text="Article of the year,Article of the year,Article of the year,Article of the year,Article of the year,Article of the year .."
-        author="Author"
-        time="6"
-        img="/image.jpg"
-      />
+      {info.map((props, index) => (
+        <ArticleCard key={index} {...props} />
+      ))}
     </div>
   );
 };

@@ -4,7 +4,7 @@ const SectionTitle = ({ name, title }) => {
   return (
     <div className="relative">
       <h1
-        className="text-gray-900 text-9xl "
+        className="text-transparent text-9xl "
         style={{
           WebkitTextStroke: "0.5px #fff",
           lineHeight: ".85",

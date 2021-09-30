@@ -7,7 +7,7 @@ const Contact = () => {
       <form
         spellCheck="false"
         autoComplete="off"
-        className="grid  gap-10 sm:grid-cols-2 px-40"
+        className="grid  gap-10 sm:grid-cols-2 px-20"
       >
         <InputField text="First Name" />
         <InputField text="First Name" />

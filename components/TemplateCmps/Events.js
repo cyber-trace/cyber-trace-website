@@ -1,12 +1,13 @@
 import { EventCard } from "@/atoms";
 import React from "react";
+import info from "constants/Events-info.json";
 
 const Events = () => {
   return (
     <div className="grid  gap-10 sm:grid-cols-2">
-      <EventCard title="JIPO" text="Cyber trace rock !" img="/image.jpg" />
-      <EventCard title="JIPO" text="Cyber trace rock !" img="/image.jpg" />
-      <EventCard title="JIPO" text="Cyber trace rock !" img="/image.jpg" />
+      {info.map(({ title, text, img }, index) => (
+        <EventCard key={index} title={title} text={text} img={img} />
+      ))}
     </div>
   );
 };
