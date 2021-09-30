@@ -5,6 +5,7 @@ import Intro from "@/templates/Intro";
 
 import { SECTIONS_DIR } from "config/paths";
 import sectionsMap from "constants/sections-map.json";
+import About from "@/templates/About";
 
 const Home = () => {
   return (
@@ -16,9 +17,8 @@ const Home = () => {
       </Head>
       <Header sections={sectionsMap.map(({ name }) => name)} />
       <main className="max-w-screen-2xl	 mx-auto grid gap-20">
-        <div className="mb-10"></div>
         <Intro />
-        {sectionsMap.map(({ name, title }) => {
+        {/* {sectionsMap.map(({ name, title }) => {
           const SectionContent =
             require(`../${SECTIONS_DIR}/${name}.js`).default;
           return (
@@ -26,7 +26,10 @@ const Home = () => {
               <SectionContent />
             </SectionBody>
           );
-        })}
+        })} */}
+        <SectionBody key={name} name={name} title={title}>
+          <About />
+        </SectionBody>
       </main>
     </div>
   );

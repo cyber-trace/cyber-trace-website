@@ -4,23 +4,26 @@ import Image from "next/dist/client/image";
 
 const Intro = () => {
   return (
-    <div className="text-white relative mx-20 mb-20">
-      <div className="absolute h-full w-1/2 right-0 top-0">
-        <Image layout="fill" src="/anonymos.png" />
-      </div>
-      <div className="grid gap-10 px-20  justify-items-start">
-        <h1 className="text-9xl">Cyber-Trace</h1>
-        <p className="text-sm w-1/2">
+    <div
+      style={{ backgroundImage: "url('/bg-image.png')" }}
+      className="text-white h-screen relative mx-20 
+      bg-no-repeat bg-cover bg-center flex items-center"
+    >
+      {/* <div className="absolute h-full right-0 top-0">
+        <Image layout="fill" src="/anonymos.jpg" />
+      </div> */}
+      <div className="grid gap-6 px-10 justify-items-start">
+        <h1 className="text-8xl font-bold font-nunito">Cyber-Trace.</h1>
+        <p className="text-base w-1/2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <Button label="Join Us" />
       </div>
 
-      <div className="grid gap-5 absolute right-0 bottom-0">
+      <div className="grid gap-4 absolute right-0 bottom-16">
         <svg
-          width="35"
-          height="35"
+          className="w-6 h-6 cursor-pointer hover:text-accentColor"
           viewBox="0 0 37 37"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -32,8 +35,7 @@ const Intro = () => {
         </svg>
 
         <svg
-          width="35"
-          height="35"
+          className="w-6 h-6 cursor-pointer hover:text-accentColor"
           viewBox="0 0 37 37"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -44,8 +46,7 @@ const Intro = () => {
           />
         </svg>
         <svg
-          width="35"
-          height="35"
+          className="w-6 h-6 cursor-pointer hover:text-accentColor"
           viewBox="0 0 45 45"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

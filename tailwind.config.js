@@ -250,6 +250,7 @@ module.exports = {
       DEFAULT: "1",
     },
     fontFamily: {
+      nunito: "Nunito",
       sans: [
         "ui-sans-serif",
         "system-ui",
