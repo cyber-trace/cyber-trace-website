@@ -1,0 +1,18 @@
+[
+  {
+    "required": true,
+    "text": "First name"
+  },
+  {
+    "required": true,
+    "text": "Last name"
+  },
+  {
+    "text": "Phone number"
+  },
+  {
+    "required": true,
+    "type": "email",
+    "text": "Email"
+  }
+]

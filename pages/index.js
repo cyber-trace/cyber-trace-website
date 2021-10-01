@@ -18,7 +18,7 @@ const Home = () => {
       <Header sections={sectionsMap.map(({ name }) => name)} />
       <main className="max-w-screen-2xl	 mx-auto grid gap-20">
         <Intro />
-        {/* {sectionsMap.map(({ name, title }) => {
+        {sectionsMap.map(({ name, title }) => {
           const SectionContent =
             require(`../${SECTIONS_DIR}/${name}.js`).default;
           return (
@@ -26,10 +26,7 @@ const Home = () => {
               <SectionContent />
             </SectionBody>
           );
-        })} */}
-        <SectionBody key={name} name={name} title={title}>
-          <About />
-        </SectionBody>
+        })}
       </main>
     </div>
   );
