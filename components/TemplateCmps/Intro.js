@@ -1,24 +1,21 @@
-import { Button } from "@/atoms";
 import React from "react";
-import Image from "next/dist/client/image";
+
+import { Button } from "@/atoms";
+
+import data from "constants/sections_data/Intro.json";
 
 const Intro = () => {
+  const { title, text, label } = data;
   return (
-    <div
+    <section
       style={{ backgroundImage: "url('/bg-image.png')" }}
       className="text-white h-screen relative mx-20 
       bg-no-repeat bg-cover bg-center flex items-center"
     >
-      {/* <div className="absolute h-full right-0 top-0">
-        <Image layout="fill" src="/anonymos.jpg" />
-      </div> */}
       <div className="grid gap-6 px-10 justify-items-start">
-        <h1 className="text-8xl font-bold font-nunito">Cyber-Trace.</h1>
-        <p className="text-base w-1/2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <Button label="Join Us" />
+        <h1 className="text-8xl font-bold font-nunito">{title}</h1>
+        <p className="text-base w-1/2">{text}</p>
+        <Button label={label} />
       </div>
 
       <div className="grid gap-4 absolute right-0 bottom-16">
@@ -59,7 +56,7 @@ const Intro = () => {
           />
         </svg>
       </div>
-    </div>
+    </section>
   );
 };
 

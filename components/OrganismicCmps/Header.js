@@ -1,17 +1,21 @@
 import React from "react";
-import { NavBar } from "@/molecules";
+
 import Image from "next/image";
+
+import { NavBar } from "@/molecules";
 
 const Header = (props) => {
   return (
-    <header className="flex items-center justify-between text-white fixed bg-inherit py-4 px-10 w-full z-50 mb-2">
-      <div className="flex items-center gap-2">
-        <Image width={48} height={47} src="/logo.png" />
-        <span className="font-semibold text-base hidden sm:block">
-          Cybertrace
-        </span>
+    <header className="text-white fixed bg-inherit py-4 px-10 w-full z-50 ">
+      <div className="flex max-w-screen-2xl items-center justify-between mx-auto">
+        <div className="flex items-center gap-2">
+          <Image width={48} height={47} src="/logo.png" alt="Cyber-Trace" />
+          <span className="font-semibold text-base hidden sm:block">
+            Cybertrace
+          </span>
+        </div>
+        <NavBar {...props} />
       </div>
-      <NavBar {...props} />
     </header>
   );
 };

@@ -1,11 +1,11 @@
-import { ArticleCard } from "@/atoms";
 import React from "react";
-import info from "constants/Blog-info.json";
 
-const Blog = () => {
+import { ArticleCard } from "@/atoms";
+
+const Blog = ({ data }) => {
   return (
     <div>
-      {info.map((props, index) => (
+      {data.map((props, index) => (
         <ArticleCard key={index} {...props} />
       ))}
     </div>

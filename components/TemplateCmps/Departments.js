@@ -1,9 +1,8 @@
 import React, { useState } from "react";
+
 import { DepartmentCard } from "@/atoms";
 
-import info from "constants/Departments-info.json";
-
-const Departments = () => {
+const Departments = ({ data }) => {
   const [card, setCard] = useState(0);
 
   return (
@@ -19,10 +18,10 @@ const Departments = () => {
           <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
         </svg>
       </button>
-      {info.slice(card, Math.min(card + 4, info.length)).map((props, index) => (
+      {data.slice(card, Math.min(card + 4, data.length)).map((props, index) => (
         <DepartmentCard key={index} {...props} />
       ))}
-      <button onClick={() => card !== info.length - 4 && setCard(card + 1)}>
+      <button onClick={() => card !== data.length - 4 && setCard(card + 1)}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

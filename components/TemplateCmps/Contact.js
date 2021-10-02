@@ -1,9 +1,12 @@
+import React, { useState } from "react";
+
 import { InputField, Textarea, Button } from "@/atoms";
-import React from "react";
 
-import info from "constants/Contact-info.json";
+const Contact = ({ data }) => {
+  const [payload, setPayload] = useState(
+    Object.fromEntries(data.map(({ key }) => [key, ""]))
+  );
 
-const Contact = () => {
   return (
     <div>
       <form
@@ -13,13 +16,18 @@ const Contact = () => {
         className="grid gap-10 sm:grid-cols-2 px-20"
         onSubmit={(e) => {
           e.preventDefault();
+          // Send "payload" to endpoint here
         }}
       >
-        {info.map((props, index) => (
-          <InputField key={index} {...props} />
+        {data.map((props, index) => (
+          <InputField
+            key={index}
+            {...props}
+            onChange={(e) => setPayload({ ...payload, [props.key]: e })}
+          />
         ))}
         <div className="col-span-2">
-          <Textarea />
+          <Textarea onChange={(e) => setPayload({ ...payload, message: e })} />
         </div>
 
         <div className="flex justify-center col-span-2">

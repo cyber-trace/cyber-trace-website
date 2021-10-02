@@ -1,19 +1,23 @@
 [
   {
     "name": "About",
-    "title": "Who are we ?"
+    "title": "Who are we ?",
+    "page": "#"
   },
   {
     "name": "Events",
-    "title": "Our community"
+    "title": "Our community",
+    "page": "#"
   },
   {
     "name": "Blog",
-    "title": "Top Articles"
+    "title": "Top Articles",
+    "page": "#"
   },
   {
     "name": "Departments",
-    "title": "6 departments"
+    "title": "6 departments",
+    "page": "#"
   },
   {
     "name": "Contact",
