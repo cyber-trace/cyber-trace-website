@@ -31,9 +31,14 @@ const Home = () => {
             </SectionBody>
           );
         })}  */}
-        <SectionBody key={5} name={"Events"} title={"Our community"}>
+        <SectionBody
+          key={5}
+          name={"Events"}
+          title={"Our community"}
+          page={"page"}
+        >
           {/* <About /> */}
-          <Events />
+          <Events data={require(`../${SECTIONS_DATA_DIR}/${"Events"}.json`)} />
         </SectionBody>
       </main>
     </div>

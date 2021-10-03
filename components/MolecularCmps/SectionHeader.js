@@ -4,7 +4,7 @@ import { SectionTitle, Button } from "components/AtomicCmps";
 
 const SectionHeader = ({ name, title, page }) => {
   return (
-    <header className="flex justify-between items-end px-20">
+    <header className="flex justify-between items-end">
       <SectionTitle name={name} title={title} />
       {page && (
         <div className="hidden sm:block">

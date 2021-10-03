@@ -9,12 +9,12 @@ const Intro = () => {
   return (
     <section
       style={{ backgroundImage: "url('/bg-image.png')" }}
-      className="text-white h-screen relative px-4 sm:px-20 
-      bg-no-repeat bg-cover bg-center flex items-center"
+      className="text-white h-screen relative px-6 sm:px-20 
+      bg-no-repeat bg-cover bg-center flex items-center font-nunito"
     >
-      <div className="grid gap-6 px-10 justify-items-start">
-        <h1 className="text-8xl font-bold font-nunito">{title}</h1>
-        <p className="text-base w-1/2">{text}</p>
+      <div className="grid gap-6  justify-items-start">
+        <h1 className="text-5xl md:text-7xl font-bold font-nunito">{title}</h1>
+        <p className="text-sm md:text-base md:w-1/2">{text}</p>
         <Button label={label} />
       </div>
 
