@@ -1,8 +1,8 @@
-import { EventCard } from "@/atoms";
 import React from "react";
-import info from "constants/Events-info.json";
 
-const Events = () => {
+import { EventCard } from "@/atoms";
+
+const Events = ({ data }) => {
   return (
     <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
       {info.map(({ title, text, img }, index) => (

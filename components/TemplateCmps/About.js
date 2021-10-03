@@ -1,11 +1,11 @@
-import { OverlapImage } from "@/atoms";
 import React from "react";
-import info from "constants/About-info.json";
 
-const About = () => {
+import { OverlapImage } from "@/atoms";
+
+const About = ({ data }) => {
   return (
     <div>
-      {info.map(({ title, text, img1, img2 }, index) => (
+      {data.map(({ title, text, img1, img2 }, index) => (
         <div
           key={index}
           className="grid md:grid-cols-2 gap-2 items-center mb-10"

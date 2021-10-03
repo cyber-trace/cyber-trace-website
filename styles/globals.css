@@ -1,8 +1,9 @@
+/* Browser Reset */
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {

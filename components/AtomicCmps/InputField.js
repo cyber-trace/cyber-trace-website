@@ -1,11 +1,13 @@
 import React from "react";
 
-const InputField = ({ text }) => {
+const InputField = ({ text, type = "text", required = false, onChange }) => {
   return (
     <input
-      type="text"
-      placeholder={text}
-      className="bg-gray-700 p-2 text-white rounded-md outline-none"
+      type={type}
+      required={required}
+      placeholder={`Enter your ${text} ...`}
+      className="bg-gray-800 p-2 text-white rounded-md outline-none"
+      onChange={(e) => onChange && onChange(e.target.value)}
     />
   );
 };
