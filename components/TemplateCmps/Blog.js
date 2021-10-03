@@ -4,7 +4,7 @@ import { ArticleCard } from "@/atoms";
 
 const Blog = ({ data }) => {
   return (
-    <div>
+    <div className="flex flex-col justify-start items-center">
       {data.map((props, index) => (
         <ArticleCard key={index} {...props} />
       ))}

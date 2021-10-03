@@ -8,7 +8,7 @@ const SectionBody = ({ children, title, name, page }) => {
     <section className="relative py-4 grid gap-10 px-4 md:px-20">
       <div id={name} className="absolute -top-24"></div>
       <SectionHeader name={name} title={title} page={page} />
-      <main className="pt-10">{children}</main>
+      <main className="pt-4">{children}</main>
       <div className="flex justify-center sm:hidden">
         <Button label="Explore more" />
       </div>

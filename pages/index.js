@@ -10,6 +10,7 @@ import { SECTIONS_DATA_DIR, SECTIONS_DIR } from "@/paths";
 import sectionsMap from "constants/sections-map.json";
 import About from "@/templates/About";
 import Events from "@/templates/Events";
+import Blog from "@/templates/Blog";
 
 const Home = () => {
   return (
@@ -31,14 +32,9 @@ const Home = () => {
             </SectionBody>
           );
         })}  */}
-        <SectionBody
-          key={5}
-          name={"Events"}
-          title={"Our community"}
-          page={"page"}
-        >
+        <SectionBody key={5} name={"Blog"} title={"Top Articles"} page={"page"}>
           {/* <About /> */}
-          <Events data={require(`../${SECTIONS_DATA_DIR}/${"Events"}.json`)} />
+          <Blog data={require(`../${SECTIONS_DATA_DIR}/${"Blog"}.json`)} />
         </SectionBody>
       </main>
     </div>
