@@ -5,10 +5,10 @@ import { SectionHeader } from "@/molecules";
 
 const SectionBody = ({ children, title, name }) => {
   return (
-    <section className="relative grid gap-10">
+    <section className="relative py-4 grid gap-10 px-4 md:px-20">
       <div id={name} className="absolute -top-24"></div>
       <SectionHeader name={name} title={title} />
-      <main className="px-40">{children}</main>
+      <main className="pt-10">{children}</main>
       <div className="flex justify-center sm:hidden">
         <Button label="Explore more" />
       </div>

@@ -6,6 +6,7 @@ import Intro from "@/templates/Intro";
 import { SECTIONS_DIR } from "config/paths";
 import sectionsMap from "constants/sections-map.json";
 import About from "@/templates/About";
+import Events from "@/templates/Events";
 
 const Home = () => {
   return (
@@ -27,8 +28,9 @@ const Home = () => {
             </SectionBody>
           );
         })} */}
-        <SectionBody key={name} name={name} title={title}>
-          <About />
+        <SectionBody key={5} name={"Events"} title={"Our community"}>
+          {/* <About /> */}
+          <Events />
         </SectionBody>
       </main>
     </div>
