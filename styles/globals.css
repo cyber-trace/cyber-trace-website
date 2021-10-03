@@ -1,3 +1,4 @@
+/* Browser Reset */
 html,
 body {
   padding: 0;
@@ -14,4 +15,37 @@ a {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Nunito";
+  src: url("/fonts/Nunito/Nunito-Regular.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/fonts/Nunito/Nunito-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans/OpenSans-Regular.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans/OpenSans-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
 }
