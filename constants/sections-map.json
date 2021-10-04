@@ -15,12 +15,8 @@
     "page": "#"
   },
   {
-    "name": "Departments",
-    "title": "6 departments",
+    "name": "Teams",
+    "title": "departments",
     "page": "#"
-  },
-  {
-    "name": "Contact",
-    "title": "Get in touch"
   }
 ]

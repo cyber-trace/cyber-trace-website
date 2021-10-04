@@ -18,7 +18,7 @@ const Intro = () => {
         <Button label={label} />
       </div>
 
-      <div className="grid gap-4 absolute right-16 bottom-16">
+      <div className="grid gap-4 absolute right-8 bottom-24">
         <svg
           className="w-6 h-6 cursor-pointer hover:text-accentColor"
           viewBox="0 0 37 37"

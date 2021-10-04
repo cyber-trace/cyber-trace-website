@@ -11,6 +11,8 @@ import sectionsMap from "constants/sections-map.json";
 import About from "@/templates/About";
 import Events from "@/templates/Events";
 import Blog from "@/templates/Blog";
+import Slider from "react-slick";
+import SimpleSlider from "@/templates/sliderTest";
 
 const Home = () => {
   return (
@@ -31,12 +33,18 @@ const Home = () => {
               />
             </SectionBody>
           );
-        })}  */}
-        <SectionBody key={5} name={"Blog"} title={"Top Articles"} page={"page"}>
-          {/* <About /> */}
+        })} */}
+        {/* <SectionBody key={5} name={"About"} title={"Who are we ?"} page={"#"}>
+          <About data={require(`../${SECTIONS_DATA_DIR}/${"About"}.json`)} />
+        </SectionBody> */}
+        <SectionBody key={5} name={"Events"} title={"Our community"} page={"#"}>
+          <Events data={require(`../${SECTIONS_DATA_DIR}/${"Events"}.json`)} />
+        </SectionBody>
+        <SectionBody key={5} name={"Blog"} title={"Top Articles"} page={"#"}>
           <Blog data={require(`../${SECTIONS_DATA_DIR}/${"Blog"}.json`)} />
         </SectionBody>
       </main>
+      {/* <SimpleSlider /> */}
     </div>
   );
 };

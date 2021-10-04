@@ -24,3 +24,11 @@ a {
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
+.slider_container {
+  width: 950px;
+}
+@media screen and(min-width: 1024px) {
+  .slider_container {
+    width: 950px;
+  }
+}
