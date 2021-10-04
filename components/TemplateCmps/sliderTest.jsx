@@ -81,9 +81,12 @@ export default class SimpleSlider extends Component {
       prevArrow: <SamplePrevArrow className="absolute left-4" />,
     };
     return (
-      <div className="text-white">
+      <div
+        className="text-white mx-auto pb-8 max-w-2xl"
+        style={{ width: "80%" }}
+      >
         <h2> Single Item</h2>
-        <Slider {...settings} className="w-11/12 mx-auto">
+        <Slider {...settings} className="w-full mx-auto">
           {[1, 2, 3, 4, 5, 6].map((i) => (
             <div key={i} className="text-red-500 bg-green-300">
               {i}

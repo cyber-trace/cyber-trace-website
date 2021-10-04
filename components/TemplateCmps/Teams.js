@@ -21,7 +21,7 @@ const Departments = ({ data }) => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -29,7 +29,7 @@ const Departments = ({ data }) => {
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 583,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -69,10 +69,10 @@ const Departments = ({ data }) => {
             <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
           </svg>
         </button> */}
-        <div className="slider_container">
-          <Slider {...settings} className="w-11/12 mx-auto">
+        <div className="mx-auto pb-8 max-w-2xl w-5/6">
+          <Slider {...settings} className="w-full">
             {data.map((props, index) => (
-              <div key={index} className="flex justify-center w-60">
+              <div key={index} className="flex justify-center p-4 w-60">
                 <DepartmentCard {...props} />
               </div>
             ))}

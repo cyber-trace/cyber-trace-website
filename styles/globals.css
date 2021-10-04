@@ -29,6 +29,16 @@ a {
 }
 @media screen and(min-width: 1024px) {
   .slider_container {
-    width: 950px;
+    width: calc(950px - 10rem);
+  }
+}
+@media screen and(min-width: 768px) {
+  .slider_container {
+    width: calc(700px - 10rem);
+  }
+}
+@media screen and(min-width: 583px) {
+  .slider_container {
+    width: calc(320px - 5rem);
   }
 }
