@@ -18,6 +18,7 @@ module.exports = {
       inherit: "inherit",
 
       accentColor: "#DE0C32",
+      lightGray: "#303030",
 
       black: colors.black,
       white: colors.white,

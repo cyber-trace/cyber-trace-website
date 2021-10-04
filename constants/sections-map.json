@@ -18,5 +18,10 @@
     "name": "Teams",
     "title": "departments",
     "page": "#"
+  },
+  {
+    "name": "Contact",
+    "title": "Talk to us",
+    "page": "#"
   }
 ]

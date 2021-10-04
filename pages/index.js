@@ -12,10 +12,7 @@ import About from "@/templates/About";
 import Events from "@/templates/Events";
 import Blog from "@/templates/Blog";
 import Teams from "@/templates/Teams";
-import Slider from "react-slick";
-import SimpleSlider from "@/templates/sliderTest";
-import { SectionHeader } from "@/molecules";
-import { Button } from "@/atoms";
+import Contact from "@/templates/Contact";
 
 const Home = () => {
   return (
@@ -69,6 +66,14 @@ const Home = () => {
         page={"#"}
       >
         <Teams data={require(`../${SECTIONS_DATA_DIR}/${"Teams"}.json`)} />
+      </SectionBody>
+      <SectionBody
+        key={"Contact"}
+        name={"Contact"}
+        title={"Talk to us"}
+        page={"#"}
+      >
+        <Contact data={require(`../${SECTIONS_DATA_DIR}/${"Contact"}.json`)} />
       </SectionBody>
     </div>
   );

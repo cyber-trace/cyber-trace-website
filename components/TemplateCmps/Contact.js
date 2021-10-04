@@ -13,7 +13,7 @@ const Contact = ({ data }) => {
         acceptCharset="UTF-8"
         spellCheck="false"
         autoComplete="off"
-        className="grid gap-10 sm:grid-cols-2 px-20"
+        className="sm:grid gap-2 gap-x-10 grid-cols-2 px-4 sm:px-10"
         onSubmit={(e) => {
           e.preventDefault();
           // Send "payload" to endpoint here
@@ -30,7 +30,7 @@ const Contact = ({ data }) => {
           <Textarea onChange={(e) => setPayload({ ...payload, message: e })} />
         </div>
 
-        <div className="flex justify-center col-span-2">
+        <div className="flex justify-center mt-4 col-span-2">
           <Button label="Send Message" />
         </div>
       </form>
