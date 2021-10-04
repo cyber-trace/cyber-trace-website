@@ -3,7 +3,7 @@ import Image from "next/image";
 const ArticleCard = ({ img, title, text, author, time }) => {
   return (
     <div className="text-white max-w-sm sm:max-w-full flex flex-col sm:flex-row items-center gap-6 mt-10">
-      <div className="w-full md:max-w-sm">
+      <div className="w-full md:max-w-sm" style={{ maxWidth: "16rem" }}>
         <Image
           className="object-cover flex-auto"
           width={263}

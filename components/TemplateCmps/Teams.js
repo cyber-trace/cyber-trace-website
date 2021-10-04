@@ -69,7 +69,7 @@ const Departments = ({ data }) => {
             <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
           </svg>
         </button> */}
-        <div className="mx-auto pb-8 max-w-2xl w-5/6">
+        <div className="mx-auto pb-8 max-w-3xl w-5/6">
           <Slider {...settings} className="w-full">
             {data.map((props, index) => (
               <div key={index} className="flex justify-center p-4 w-60">

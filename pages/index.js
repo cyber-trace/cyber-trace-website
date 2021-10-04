@@ -21,7 +21,7 @@ const Home = () => {
         <title>Cyber-Trace</title>
       </Head>
       <Header sections={sectionsMap.map(({ name }) => name)} />
-      <main className="max-w-screen-2xl	 mx-auto flex flex-col gap-20">
+      <main className="max-w-screen-xl mx-auto flex flex-col gap-y-20">
         <Intro />
         {/* {sectionsMap.map(({ name, title, page }) => {
           const SectionContent =
@@ -58,23 +58,25 @@ const Home = () => {
         >
           <Blog data={require(`../${SECTIONS_DATA_DIR}/${"Blog"}.json`)} />
         </SectionBody>
+        <SectionBody
+          key={"Teams"}
+          name={"Teams"}
+          title={"departement"}
+          page={"#"}
+        >
+          <Teams data={require(`../${SECTIONS_DATA_DIR}/${"Teams"}.json`)} />
+        </SectionBody>
+        <SectionBody
+          key={"Contact"}
+          name={"Contact"}
+          title={"Talk to us"}
+          page={"#"}
+        >
+          <Contact
+            data={require(`../${SECTIONS_DATA_DIR}/${"Contact"}.json`)}
+          />
+        </SectionBody>
       </main>
-      <SectionBody
-        key={"Teams"}
-        name={"Teams"}
-        title={"departement"}
-        page={"#"}
-      >
-        <Teams data={require(`../${SECTIONS_DATA_DIR}/${"Teams"}.json`)} />
-      </SectionBody>
-      <SectionBody
-        key={"Contact"}
-        name={"Contact"}
-        title={"Talk to us"}
-        page={"#"}
-      >
-        <Contact data={require(`../${SECTIONS_DATA_DIR}/${"Contact"}.json`)} />
-      </SectionBody>
     </div>
   );
 };

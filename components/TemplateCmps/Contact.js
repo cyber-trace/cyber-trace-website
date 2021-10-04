@@ -8,7 +8,7 @@ const Contact = ({ data }) => {
   );
 
   return (
-    <div>
+    <div className="max-w-4xl mx-auto">
       <form
         acceptCharset="UTF-8"
         spellCheck="false"
