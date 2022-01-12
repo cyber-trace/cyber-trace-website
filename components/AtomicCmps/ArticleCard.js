@@ -1,14 +1,20 @@
 import Image from "next/image";
 
+const myLoader = ({ src }) => {
+  return `${src}`;
+};
+
 const ArticleCard = ({ img, title, text, author, time }) => {
   return (
     <div className="text-white max-w-sm sm:max-w-full flex flex-col sm:flex-row items-center gap-6 mt-10">
       <div className="w-full md:max-w-sm" style={{ maxWidth: "16rem" }}>
         <Image
+          loader={myLoader}
+          alt=""
           className="object-cover flex-auto"
           width={263}
           height={172}
-          layout="responsive"
+          // layout="responsive"
           src={img}
         />
       </div>

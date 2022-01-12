@@ -17,7 +17,7 @@ class AppDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
 
           {/* Fonts (Preloading) */}
-          <link
+          {/* <link
             rel="preload"
             href="/fonts/Nunito/Nunito-Regular.ttf"
             as="font"
@@ -40,7 +40,7 @@ class AppDocument extends Document {
             href="/fonts/OpenSans/OpenSans-Bold.ttf"
             as="font"
             crossOrigin=""
-          />
+          /> */}
 
           {/* Facebook OpenGraph */}
           {/* <meta property="og:url" content="" />
