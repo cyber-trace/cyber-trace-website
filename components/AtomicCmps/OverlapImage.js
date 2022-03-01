@@ -15,7 +15,7 @@ const OverlapImage = ({ img1, img2 }) => {
           className="w-52 object-cover"
           src={img1.src}
           alt={img1.alt}
-          // layout="fill"
+          layout="fill"
         />
       </div>
       <div className="absolute w-44 h-56 md:w-52 md:h-64 top-24 left-1/3">
@@ -24,7 +24,7 @@ const OverlapImage = ({ img1, img2 }) => {
           className="w-52 object-cover"
           src={img2.src}
           alt={img2.alt}
-          // layout="fill"
+          layout="fill"
         />
       </div>
     </div>

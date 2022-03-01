@@ -253,6 +253,8 @@ module.exports = {
     fontFamily: {
       nunito: "Nunito",
       openSans: "Open Sans",
+      chkra: "Chakra Petch",
+      poppins: "Poppins",
       sans: [
         "ui-sans-serif",
         "system-ui",

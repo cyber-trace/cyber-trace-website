@@ -4,22 +4,29 @@ const myLoader = ({ src }) => {
   return `${src}`;
 };
 
-const ArticleCard = ({ img, title, text, author, time }) => {
+const ArticleCard = ({ _id, img, title, text, author, time }) => {
   return (
     <div className="text-white max-w-sm sm:max-w-full flex flex-col sm:flex-row items-center gap-6 mt-10">
-      <div className="w-full md:max-w-sm" style={{ maxWidth: "16rem" }}>
+      <div className="w-full md:max-w-sm" style={{ maxWidth: "20rem" }}>
         <Image
           loader={myLoader}
           alt=""
           className="object-cover flex-auto"
-          width={263}
+          width={300}
           height={172}
-          // layout="responsive"
+          layout="responsive"
           src={img}
         />
       </div>
       <div className="w-11/12 flex flex-col justify-between space-y-4 py-4">
-        <h3 className="text-xl font-semibold font-nunito">{title}</h3>
+        <h3>
+          <a
+            href={`/articles/${_id}`}
+            className="text-xl font-semibold font-nunito"
+          >
+            {title}
+          </a>
+        </h3>
         <p className="text-limit text-xs">{text}</p>
         <div className="flex gap-16">
           <p className="text-sm">

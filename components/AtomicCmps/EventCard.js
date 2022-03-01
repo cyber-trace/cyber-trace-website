@@ -15,8 +15,8 @@ const EventCard = ({ title, text, img }) => {
         layout="responsive"
         alt=""
       />
-      <h3 className="mt-4 text-lg">{title}</h3>
-      <p className="text-limit text-sm">{text}</p>
+      <h3 className="mt-4 text-lg font-chkra font-bold">{title}</h3>
+      <p className="text-limit text-xs text-gray-500">{text}</p>
     </div>
   );
 };

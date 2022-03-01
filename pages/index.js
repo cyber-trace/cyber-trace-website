@@ -42,6 +42,7 @@ const Home = () => {
         >
           <About data={require(`../${SECTIONS_DATA_DIR}/${"About"}.json`)} />
         </SectionBody>
+
         <SectionBody
           key={"Events"}
           name={"Events"}

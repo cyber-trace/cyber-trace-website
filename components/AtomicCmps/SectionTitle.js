@@ -2,7 +2,7 @@ import React from "react";
 
 const SectionTitle = ({ name, title }) => {
   return (
-    <div className="relative flex-auto">
+    <div className="relative flex-auto font-chkra">
       <h1
         className="text-transparent text-6xl sm:text-8xl font-bold "
         style={{
