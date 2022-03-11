@@ -31,8 +31,9 @@ export default function keyloggers() {
           <h2 className="text-white font-bold text-xl font-chkra pt-6 pb-2">
             Is there any other form of keyloggers?
           </h2>
-          a keylogger doesn't have to be a software, it can also be a hardware
-          device. Keylogging devices are much rarer than keylogging software:
+          a keylogger doesn&rsquo;t have to be a software, it can also be a
+          hardware device. Keylogging devices are much rarer than keylogging
+          software:
           <ul>
             <li className="mt-4">Keyboard hardware keyloggers</li>
             <li className="mt-4">Hidden camera keyloggers </li>

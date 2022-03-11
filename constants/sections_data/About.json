@@ -1,9 +1,9 @@
 [
   {
-    "title": "",
-    "text": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibusLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibusLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus",
+    "title": "Junior Path",
+    "text": "Cyber Trace’s Junior Path is a beginner-friendly path dedicated to our dear members. Each session of this path consists of an introduction to one of the numerous sub-domains of cyber security in addition to a mini-workshop helping them apply what they’ve just learnt.",
     "img1": {
-      "src": "/image.jpg",
+      "src": "/about/48944845-7a49-4bf3-9712-16047316363b.jpg",
       "alt": "img1"
     },
     "img2": {
@@ -12,14 +12,14 @@
     }
   },
   {
-    "title": "What We Do",
-    "text": " Lorem iLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibusLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibuspsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus",
+    "title": "Senior Path",
+    "text": " Cyber Trace’s Senior Path is a path dedicated to the amateurs of cyber security. Within the sessions of this path, we discuss in-depth, one specific, delicate and very interesting concept of cyber security.",
     "img1": {
-      "src": "/image.jpg",
+      "src": "/about/43acf3f7-cca6-40dd-88cb-85a04a7d768c.jpg",
       "alt": "img1"
     },
     "img2": {
-      "src": "/image.jpg",
+      "src": "/about/be5a9831-c86c-4f5d-9de5-b02124018761.jpg",
       "alt": "img2"
     }
   }

@@ -10,7 +10,7 @@ const About = ({ data }) => {
           key={index}
           // className="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-2 justify-items-center items-center mb-4"
           className={`${index % 2 != 0 ? "md:flex-row-reverse" : "md:flex-row"}
-          flex flex-col  gap-8 justify-center items-center mb-4
+          flex flex-col  gap-8 justify-center items-center mb-10
           `}
           style={
             {

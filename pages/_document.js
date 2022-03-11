@@ -14,7 +14,7 @@ class AppDocument extends Document {
           <meta name="author" content="Cyber-Trace Dev Team" />
 
           {/* Icons */}
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/logo.ico" />
 
           {/* Fonts (Preloading) */}
           {/* <link

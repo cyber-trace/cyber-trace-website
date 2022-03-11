@@ -32,9 +32,9 @@ export default function iot_threats() {
           <h2 className="text-white font-bold text-xl font-chkra pt-6 pb-2">
             Misconfigured APIs
           </h2>
-          APIs can introduce a new entrance for attackers to access a business's
-          IoT Devices. We need to understand the security policies of each
-          device before connecting them.
+          APIs can introduce a new entrance for attackers to access a
+          business&rsquo;s IoT Devices. We need to understand the security
+          policies of each device before connecting them.
           <h2 className="text-white font-bold text-xl font-chkra pt-6 pb-2">
             AI Based Attacks
           </h2>
@@ -70,7 +70,7 @@ export default function iot_threats() {
               </span>{" "}
               new firmware version means new security options against recent
               Vulnerabilities(a firmware is a small software that has direct
-              impact on the hardware, that's why it is called a firmware.
+              impact on the hardware, that&rsquo;s why it is called a firmware.
             </li>
             <li className="mt-4">
               <span className="bold-bold text-lg text-white">

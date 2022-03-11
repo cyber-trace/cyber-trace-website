@@ -44,7 +44,7 @@ export default function ransomware() {
           <p>
             On this type of ransomware, basic computer functions are affected:
             <ul className="pl-8 list-decimal">
-              <li>It locks the computer's screen and demands payment</li>
+              <li>It locks the computer&rsquo;s screen and demands payment</li>
               <li>
                 It presents a full screen image that blocks all other windows
               </li>
@@ -119,10 +119,10 @@ export default function ransomware() {
                 Change your credentials:
               </span>
               if you discover that a data leak or a ransomware attack has
-              compromised a company you've interacted with, act immediately and
-              change your passwords for all your accounts. And while you are at
-              it, go the extra mile and create passwords that are seriouasly
-              hard to crack.
+              compromised a company you&rsquo;ve interacted with, act
+              immediately and change your passwords for all your accounts. And
+              while you are at it, go the extra mile and create passwords that
+              are seriouasly hard to crack.
             </li>
             <li className="mt-4">
               <span className="bold-bold text-lg text-white">

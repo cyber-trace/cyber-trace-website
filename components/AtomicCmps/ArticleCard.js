@@ -6,7 +6,7 @@ const myLoader = ({ src }) => {
 
 const ArticleCard = ({ _id, img, title, text, author, time }) => {
   return (
-    <div className="text-white max-w-sm sm:max-w-full flex flex-col sm:flex-row items-center gap-6 mt-10">
+    <div className="text-white max-w-sm  sm:max-w-full flex flex-col sm:flex-row items-center gap-6">
       <div className="w-full md:max-w-sm" style={{ maxWidth: "20rem" }}>
         <Image
           loader={myLoader}
@@ -27,7 +27,7 @@ const ArticleCard = ({ _id, img, title, text, author, time }) => {
             {title}
           </a>
         </h3>
-        <p className="text-limit text-xs">{text}</p>
+        <p className="text-limit text-xs text-gray-400">{text}</p>
         <div className="flex gap-16">
           <p className="text-sm">
             By <strong className="underline text-accentColor">{author}</strong>

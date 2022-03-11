@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Button } from "@/atoms";
+import Link from "next/link";
 
 import data from "constants/sections_data/Intro.json";
 
@@ -19,7 +20,11 @@ const Intro = () => {
       </div>
 
       <div className="grid gap-4 absolute right-8 bottom-24">
-        <a target="_blank" href="https://www.instagram.com/cyber_trace_issatso">
+        <Link
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.instagram.com/cyber_trace_issatso"
+        >
           <svg
             className="w-6 h-6 cursor-pointer hover:text-accentColor"
             viewBox="0 0 37 37"
@@ -31,8 +36,12 @@ const Intro = () => {
               fill="white"
             />
           </svg>
-        </a>
-        <a target="_blank" href="https://www.facebook.com/CyberTraceClub">
+        </Link>
+        <Link
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.facebook.com/CyberTraceClub"
+        >
           <svg
             className="w-6 h-6 cursor-pointer hover:text-accentColor"
             viewBox="0 0 37 37"
@@ -44,8 +53,12 @@ const Intro = () => {
               fill="white"
             />
           </svg>
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/company/cyber-trace/">
+        </Link>
+        <Link
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/company/cyber-trace/"
+        >
           <svg
             className="w-6 h-6 cursor-pointer hover:text-accentColor"
             viewBox="0 0 45 45"
@@ -59,7 +72,7 @@ const Intro = () => {
               fill="white"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </section>
   );

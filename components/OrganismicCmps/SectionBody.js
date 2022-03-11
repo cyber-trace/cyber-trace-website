@@ -9,10 +9,12 @@ const SectionBody = ({ children, title, name, page }) => {
       <div id={name} className="absolute -top-24"></div>
       <SectionHeader name={name} title={title} page={page} />
       <main className="pt-4">{children}</main>
-      {name != "Contact" && (
+      {name != "Contact" && name != "Sponsors" ? (
         <div className="flex justify-center sm:hidden">
           <Button label="Explore more" />
         </div>
+      ) : (
+        <></>
       )}
     </section>
   );

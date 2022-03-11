@@ -6,10 +6,12 @@ const SectionHeader = ({ name, title, page }) => {
   return (
     <header className="flex justify-between items-end">
       <SectionTitle name={name} title={title} />
-      {page && (
+      {name != "Contact" && name != "Sponsors" ? (
         <div className="hidden sm:block">
           <Button label="Explore more" />
         </div>
+      ) : (
+        <></>
       )}
     </header>
   );

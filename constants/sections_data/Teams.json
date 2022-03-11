@@ -1,42 +1,62 @@
 [
   {
-    "title": "Dev Team",
-    "text": "best d ever ...",
-    "img": "/image.jpg"
+    "title": "president",
+    "text": "",
+    "img": "/team/Mohamed Ali Meddeb.jpg",
+    "name": "Mohamed Ali Meddeb"
   },
   {
-    "title": "HR Team",
-    "text": "best t ever ...",
-    "img": "/image.jpg"
+    "title": "vice president",
+    "text": "",
+    "img": "/team/Shayma Trad.jpg",
+    "name": "Shayma Trad"
   },
   {
-    "title": "Organization Team",
-    "text": "best p ever ...",
-    "img": "/image.jpg"
+    "title": "Finance and external relations",
+    "text": "",
+    "img": "/team/Abir Chalghami.jpg",
+    "name": "Abir Chalghami"
   },
   {
-    "title": "jinor Team",
-    "text": "best a ever ...",
-    "img": "/image.jpg"
+    "title": "Human resources",
+    "text": "",
+    "img": "/team/Wissal Lamouchi.jpg",
+    "name": "Wissal Lamouchi"
   },
   {
-    "title": "sinior Team",
-    "text": "best team ever ...",
-    "img": "/image.jpg"
+    "title": "Organizational commitee",
+    "text": "",
+    "img": "/team/Maryem Neili.jpg",
+    "name": "Maryem Neili"
   },
   {
-    "title": "sponsoring Team",
+    "title": "Junior commitee",
+    "text": "",
+    "img": "/team/Mohamed Amine Dhuibi.jpg",
+    "name": "Mohamed Amine Dhuibi"
+  },
+  {
+    "title": "Senior commitee",
+    "text": "",
+    "img": "/team/Haroun Maghraoui.jpg",
+    "name": "Haroun Maghraoui"
+  },
+  {
+    "title": "Marketing commitee",
     "text": " team ever ...",
-    "img": "/image.jpg"
+    "img": "/team/Maryem Jaouadi.jpg",
+    "name": "Maryem Jaouadi"
   },
   {
     "title": "CTF Team",
     "text": "be ever ...",
-    "img": "/image.jpg"
+    "img": "/team/Khalil Mokni.jpg",
+    "name": "Khalil Mokni"
   },
   {
-    "title": "Dev Team",
+    "title": "Development Commitee",
     "text": "best team  ...",
-    "img": "/image.jpg"
+    "img": "/team/Ons Ben Mabrouk.jpg",
+    "name": "Ons Ben Mabrouk"
   }
 ]

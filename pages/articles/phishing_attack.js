@@ -19,7 +19,7 @@ export default function phishing_attack() {
             What is a phishing attack?
           </h2>
           Phishing is a type of social engineering attack often used to steal
-          user's sensitive data (such as login credentials and credit card
+          user&rsquo;s sensitive data (such as login credentials and credit card
           numbers). Such an attack can have devastating results for individuals
           as well as companies and businesses. It could lead to unauthorized
           purchases, stealing of funds or identity thefts.
@@ -28,9 +28,9 @@ export default function phishing_attack() {
             className="object-fill w-full my-6"
           />
           As you can see, this page looks like a facebook login page. But if we
-          could easily see that the link doesn't refer to facebook domain name.
-          If you type your personal login information, you will be a victim of a
-          phishing attack.
+          could easily see that the link doesn&rsquo;t refer to facebook domain
+          name. If you type your personal login information, you will be a
+          victim of a phishing attack.
           <h2 className="text-white font-bold text-xl font-chkra pt-6 pb-2">
             Phishing techniques:
           </h2>
@@ -49,12 +49,12 @@ export default function phishing_attack() {
                 Spear phishing:
               </span>{" "}
               Spear phishing is a type of a phishing campaign targeted towards
-              specific victims, whether they're individuals or a whole business.
-              It has the same goals as a regular phishing attack: Gaining access
-              to personal accounts or getting hold of sensitive data. It is
-              usually executed by impersonating a trustworthy individual, such
-              as a high ranking official or well respected employees involved in
-              confidential operations within the company.
+              specific victims, whether they&rsquo;re individuals or a whole
+              business. It has the same goals as a regular phishing attack:
+              Gaining access to personal accounts or getting hold of sensitive
+              data. It is usually executed by impersonating a trustworthy
+              individual, such as a high ranking official or well respected
+              employees involved in confidential operations within the company.
             </li>
           </ul>
           <h2 className="text-white font-bold text-xl font-chkra pt-6 pb-2">
@@ -62,12 +62,12 @@ export default function phishing_attack() {
           </h2>
           <ul>
             <li className="mt-4">Enable the firewall</li>
-            <li className="mt-4">Don't ignore those updates</li>
+            <li className="mt-4">Don&rsquo;t ignore those updates</li>
             <li className="mt-4">Never trust alarming messages</li>
-            <li className="mt-4">Don't be tempted by those pop-ups</li>
+            <li className="mt-4">Don&rsquo;t be tempted by those pop-ups</li>
             <li className="mt-4">Get free anti-phishing add-ons</li>
             <li className="mt-4">
-              Don't give your indormation to an unsecure site
+              Don&rsquo;t give your indormation to an unsecure site
             </li>
           </ul>
         </section>

@@ -6,19 +6,19 @@ const myLoader = ({ src }) => {
 const OverlapImage = ({ img1, img2 }) => {
   return (
     <div
-      className="relative mb-24 right-10 w-44 h-56 md:w-52 md:h-64"
+      className="relative w-full h-56 md:w-96 md:h-64"
       // style={{ width: "277px", height: "326px", marginBottom: "163px" }}
     >
       <div>
         <Image
           loader={myLoader}
-          className="w-52 object-cover"
+          className="object-cover"
           src={img1.src}
           alt={img1.alt}
           layout="fill"
         />
       </div>
-      <div className="absolute w-44 h-56 md:w-52 md:h-64 top-24 left-1/3">
+      {/* <div className="absolute w-44 h-56 md:w-52 md:h-64 top-24 left-1/3">
         <Image
           loader={myLoader}
           className="w-52 object-cover"
@@ -26,7 +26,7 @@ const OverlapImage = ({ img1, img2 }) => {
           alt={img2.alt}
           layout="fill"
         />
-      </div>
+      </div> */}
     </div>
   );
 };
